@@ -4,11 +4,6 @@
     font-style: normal;
     margin: 0;
 }
-/*
-rgb(24, 36, 47, .1)
-rgb(18, 24, 34, .1)
-
-*/
 
 body {
     background-color: #18242f;
@@ -603,6 +598,27 @@ tr:nth-child(even) {
     .community-qualy-title {
         font-size: 20px;
         margin-top: -5px;
+    }
+}
+
+
+@media (max-width: 360px) {
+    .news>img {
+        width: 280px;
+    }
+    .news-data {
+        margin: 0px;
+        margin-top: 20px;
+        padding: 30px 30px 30px 30px;
+        height: 580px;
+    }
+    .news-img>img {
+        height: 250px;
+        width: 250px;
+        margin: 0px;
+    }
+    .community-qualy {
+        padding-bottom: 50px;
     }
 }
 
