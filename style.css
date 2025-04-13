@@ -610,12 +610,13 @@ tr:nth-child(even) {
         margin: 0px;
         margin-top: 20px;
         padding: 30px 30px 30px 30px;
-        height: 580px;
+        height: 600px;
     }
     .news-img>img {
         height: 250px;
         width: 250px;
         margin: 0px;
+        margin-bottom: 20px;
     }
     .community-qualy {
         padding-bottom: 50px;
