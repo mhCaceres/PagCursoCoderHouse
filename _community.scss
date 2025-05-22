@@ -1,0 +1,129 @@
+
+.community-module-1 {
+	background: url(./source/img/rank-background.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 70px;
+}
+
+.community-module-2 {
+	background: url(./source/img/smoke.png) no-repeat top;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.community-qualy {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 100px;
+
+	>img {
+		margin-top: 20px;
+		width: 800px;
+		opacity: .55;
+	}
+}
+
+.community-qualy-title {
+	font-size: 45px;
+	margin-top: -20px;
+}
+
+.community-group {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.community-rank {
+	width: 100px;
+	height: 100px;
+}
+
+.img-rank1 {
+	background: url(./source/img/ES-1.png) no-repeat;
+	background-size: cover;
+}
+
+.img-rank2 {
+	background: url(./source/img/ES-2.png) no-repeat;
+	background-size: cover;
+}
+
+.img-rank3 {
+	background: url(./source/img/ES-3.png) no-repeat;
+	background-size: cover;
+}
+
+.community-qualy-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.community-members {
+	display: grid;
+	grid-template-columns: 1fr 1.5px 1fr 1.5px 1fr;
+	grid-template-rows: auto;
+	grid-template-areas: "user0 divider0 user1 divider1 user2" "position0 position1 position2 position3 position4";
+	align-items: center;
+	justify-items: center;
+}
+
+.community-users {
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 100px;
+	text-align: center;
+
+	&:nth-child(3) {
+		border-right: none;
+	}
+}
+
+.rank {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.community-border-bottom {
+	margin-top: 5px;
+	width: 100%;
+	height: 1px;
+	background-image: linear-gradient(90deg, transparent, #535468, transparent);
+	grid-column: 1 / 6;
+	grid-row: 2;
+	justify-self: end;
+}
+
+.community-border-top {
+	width: 100%;
+	height: 1px;
+	background-image: linear-gradient(90deg, transparent, #535468, transparent);
+	grid-column: 1 / 6;
+	grid-row: 1;
+}
+
+.community-border-right {
+	height: 100%;
+	width: 1.5px;
+	justify-self: end;
+	background-image: linear-gradient(180deg, transparent, #535468, transparent);
+}
+
+.divider0 {
+	grid-column: 2;
+	grid-row: 1/3;
+}
+
+.divider1 {
+	grid-column: 4;
+	grid-row: 1/3;
+}
